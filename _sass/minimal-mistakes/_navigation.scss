@@ -6,6 +6,7 @@
    Breadcrumb navigation links
    ========================================================================== */
 
+
 .breadcrumbs {
   @include clearfix;
   margin: 0 auto;
@@ -22,9 +23,9 @@
   }
 
   ol {
-    padding: 0;
+    padding-left: 1.5vw;
     list-style: none;
-    font-size: $type-size-6;
+    font-size: $type-size-5; //$type-size-6;
 
     @include breakpoint($large) {
       float: inline-end;
@@ -35,7 +36,7 @@
       width: calc(100% - #{$right-sidebar-width});
     }
   }
-
+  
   li {
     display: inline;
   }
@@ -44,6 +45,9 @@
     font-weight: bold;
   }
 }
+
+
+
 
 /*
      Post pagination navigation links
@@ -494,7 +498,7 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid #6f777d; // $border-color
 }
 
 /*
@@ -532,7 +536,7 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: 0.7em    //$type-size-7;
   }
 
   a {
