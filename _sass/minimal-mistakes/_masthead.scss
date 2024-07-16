@@ -59,7 +59,7 @@
 
 .masthead__menu {
   float: inline-start;
-  margin-inline: 0;
+  margin: 1em 3em 1em 3em;   //원래 margin-inline: 0 이었다.
   width: 100%;
   clear: both;
 
