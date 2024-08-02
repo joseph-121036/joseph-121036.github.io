@@ -1,11 +1,11 @@
 ---
-title: "Blog dev"
+title: "Computer Architecture"
 layout: archive
-permalink: categories/blog_dev
+permalink: categories/computer_architecture
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories['blog dev'] %}
+{% assign posts = site.categories.['Computer Architecture'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
