@@ -1,13 +1,9 @@
 ---
-title: "테스트1"
-excerpt: "지킬 블로그 test post"
+title: "computing platform"
+excerpt: "computing platform에 대해 잘 알아야 한다."
 layout: single
-categories: RTOS
+categories: [Computers as Components]
 tags: [python, blog]
-toc: true
-toc_sticky: true
-toc_label: 목차
-toc_icon: "fa-solid fa-tooth"
 use_math: true
 ---
 
