@@ -335,6 +335,7 @@ defaults:
       toc_sticky: true
       toc_label: 목차
       toc_icon: "fa-solid fa-list"
+      published: false
       
         
 
