@@ -1,0 +1,53 @@
+.crossline {
+    border-bottom: 1.5px solid #6f777d;
+}
+
+.highlight1 {
+    background-color: #ededed;
+    color: #797c7e;
+}
+
+.highlight2 {  
+    background-color: #43fd30;
+}
+
+.center {
+        text-align: center;
+      }
+
+.center img{
+	width: 400px;
+}
+
+.left {
+    text-align: left;
+}
+
+.left img{
+    max-width: 70%
+}
+
+a {
+  text-decoration-line: none;
+/*   text-decoration-line: underline; */
+/*   text-decoration-line: overline; */
+/*   text-decoration-line: line-through; */
+/*   text-decoration-line: underline line-through overline; */
+}
+
+.git {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.dashed-wrap {
+    height: 100%;
+    padding: 30px;
+    border: 2px dashed #acacac;
+    border-radius: 60px;
+    /*text-align: center*/
+}
+
+.video-container {
+    text-align: center
+}
